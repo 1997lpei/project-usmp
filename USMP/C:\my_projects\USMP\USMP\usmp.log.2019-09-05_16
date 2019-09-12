@@ -1,0 +1,220 @@
+ERROR 2019-09-05 14:09:23,934 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/project-usmp/USMP/app01/views.py", line 56, in getproducesan
+    producesan = Producesan.objects.filter(pk=id)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1099, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 19, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 57, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 744, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 976, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '['
+ERROR 2019-09-05 14:10:20,371 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/project-usmp/USMP/app01/views.py", line 57, in getproducesan
+    producesan = Producesan.objects.filter(pk=id)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1099, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 19, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 57, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 744, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 976, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '['
+ERROR 2019-09-05 14:16:45,531 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/project-usmp/USMP/app01/views.py", line 57, in getproducesan
+    producesan = Producesan.objects.filter(pk=int(id))
+ValueError: invalid literal for int() with base 10: '['
+ERROR 2019-09-05 15:13:01,317 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 62, in getproducesan
+    producesan_list.append(model_to_dict(producesan))
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/forms/models.py", line 84, in model_to_dict
+    opts = instance._meta
+AttributeError: 'QuerySet' object has no attribute '_meta'
+ERROR 2019-09-05 15:14:02,461 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 62, in getproducesan
+    producesan_list.append(model_to_dict(producesan.first))
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/forms/models.py", line 84, in model_to_dict
+    opts = instance._meta
+AttributeError: 'function' object has no attribute '_meta'
+ERROR 2019-09-05 15:35:55,790 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 64, in getproducesan
+    get_excel('生产SAN', producesan_list)
+  File "/home/liu/git_project/project-usmp/USMP/app01/forms.py", line 40, in get_excel
+    sheet = wb.add_sheet(sheet_name,cell_overwrite_ok=True)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/xlwt/Workbook.py", line 366, in add_sheet
+    sheetname = sheetname.decode(self.encoding)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe7 in position 0: ordinal not in range(128)
+ERROR 2019-09-05 15:39:40,450 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 58, in getproducesan
+    checkList = json.loads(checkList).encode('utf-8')
+AttributeError: 'list' object has no attribute 'encode'
+ERROR 2019-09-05 15:40:28,467 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 64, in getproducesan
+    get_excel('生产SAN', producesan_list)
+  File "/home/liu/git_project/project-usmp/USMP/app01/forms.py", line 40, in get_excel
+    sheet = wb.add_sheet(sheet_name,cell_overwrite_ok=True)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/xlwt/Workbook.py", line 366, in add_sheet
+    sheetname = sheetname.decode(self.encoding)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe7 in position 0: ordinal not in range(128)
+ERROR 2019-09-05 15:49:08,484 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 64, in getproducesan
+    get_excel(u'生产SAN', producesan_list)
+  File "/home/liu/git_project/project-usmp/USMP/app01/forms.py", line 40, in get_excel
+    print a._meta.fields
+AttributeError: 'dict' object has no attribute '_meta'
+ERROR 2019-09-05 15:50:59,538 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 64, in getproducesan
+    get_excel(u'生产SAN', producesan_list)
+  File "/home/liu/git_project/project-usmp/USMP/app01/forms.py", line 40, in get_excel
+    print a.value
+AttributeError: 'dict' object has no attribute 'value'
+ERROR 2019-09-05 16:06:35,727 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 63, in getproducesan
+    print producesan.first().values()
+AttributeError: 'Producesan' object has no attribute 'values'
+ERROR 2019-09-05 16:08:20,033 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 64, in getproducesan
+    producesan_list.append(model_to_dict(producesan.first()))
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/forms/models.py", line 84, in model_to_dict
+    opts = instance._meta
+AttributeError: 'dict' object has no attribute '_meta'
+ERROR 2019-09-05 16:09:15,979 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 66, in getproducesan
+    producesan_list.append(model_to_dict(producesan.first()))
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/forms/models.py", line 84, in model_to_dict
+    opts = instance._meta
+AttributeError: 'dict' object has no attribute '_meta'
+ERROR 2019-09-05 16:16:10,300 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 66, in getproducesan
+    producesan_list.append(model_to_dict(producesan.first()))
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/forms/models.py", line 84, in model_to_dict
+    opts = instance._meta
+AttributeError: 'dict' object has no attribute '_meta'

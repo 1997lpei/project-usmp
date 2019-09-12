@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* 你自己的样式 */
+#spinner_section{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: black;
+    top:0;
+    left: 0;
+    opacity:0.5;
+}
+.spinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 3px solid transparent;
+  border-bottom-color: #19A5DF;
+  border-top-color: #19A5DF;
+  -webkit-animation: rotate 1.5s linear 0s infinite;
+  animation: rotate 1.5s linear 0s infinite;
+  padding-left: 0px;
+  padding-right:0px;
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+    from {
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,91 @@
+ERROR 2019-09-04 15:31:35,884 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/PycharmProjects/USMP/app01/views.py", line 45, in getproducesan
+    return JsonResponse(response.get)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/http/response.py", line 505, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/serializers/json.py", line 115, in default
+    return super(DjangoJSONEncoder, self).default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <Producesan: Producesan object> is not JSON serializable
+ERROR 2019-09-04 15:31:37,915 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/PycharmProjects/USMP/app01/views.py", line 45, in getproducesan
+    return JsonResponse(response.get)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/http/response.py", line 505, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/serializers/json.py", line 115, in default
+    return super(DjangoJSONEncoder, self).default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <Producesan: Producesan object> is not JSON serializable
+ERROR 2019-09-04 15:31:39,805 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/PycharmProjects/USMP/app01/views.py", line 45, in getproducesan
+    return JsonResponse(response.get)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/http/response.py", line 505, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/serializers/json.py", line 115, in default
+    return super(DjangoJSONEncoder, self).default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <Producesan: Producesan object> is not JSON serializable
+WARNING 2019-09-04 15:46:49,575 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base get_response 182: Not Found: /getproducesan/？
+WARNING 2019-09-04 15:46:49,645 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base get_response 182: Not Found: /favicon.ico
+ERROR 2019-09-04 15:48:28,735 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getproducesan didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-04 15:49:48,050 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getproducesan didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-04 15:50:12,128 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getproducesan didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-04 15:50:27,454 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getproducesan didn't return an HttpResponse object. It returned None instead.

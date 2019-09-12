@@ -1,0 +1,176 @@
+ERROR 2019-09-10 16:24:40,033 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 112, in getproducesan
+    value_list = json.loads(value_list)
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+ERROR 2019-09-10 16:28:50,459 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 112, in getproducesan
+    value_list = json.loads(value_list)
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+ERROR 2019-09-10 16:30:51,501 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 113, in getproducesan
+    value_list = json.loads(value_list)
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+ERROR 2019-09-10 16:32:55,181 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 113, in getproducesan
+    value_list = json.loads(value_list)
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+ERROR 2019-09-10 16:33:01,674 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 113, in getproducesan
+    value_list = json.loads(value_list)
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+ERROR 2019-09-10 16:34:45,905 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 113, in getproducesan
+    value_list = json.loads(value_list,encoding='utf-8')
+  File "/usr/lib/python2.7/json/__init__.py", line 352, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+ERROR 2019-09-10 16:36:29,110 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 117, in getproducesan
+    value_list = json.loads(value_list,encoding='utf-8')
+  File "/usr/lib/python2.7/json/__init__.py", line 352, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+ERROR 2019-09-10 16:37:01,121 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 117, in getproducesan
+    value_list = json.loads(value_list,encoding='utf-8')
+  File "/usr/lib/python2.7/json/__init__.py", line 352, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+ERROR 2019-09-10 16:37:11,938 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 117, in getproducesan
+    value_list = json.loads(value_list,encoding='utf-8')
+  File "/usr/lib/python2.7/json/__init__.py", line 352, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+ERROR 2019-09-10 16:38:18,136 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 117, in getproducesan
+    value_list = json.loads(value_list,encoding='utf-8')
+  File "/usr/lib/python2.7/json/__init__.py", line 352, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+ERROR 2019-09-10 16:39:44,646 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 118, in getproducesan
+    value_list = json.loads(value_list)
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+ERROR 2019-09-10 17:29:02,017 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 119, in getproducesan
+    print request.body()
+TypeError: 'str' object is not callable
