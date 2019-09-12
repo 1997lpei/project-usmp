@@ -1,0 +1,58 @@
+ERROR 2019-09-12 10:47:28,495 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducenas/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 81, in dispatch
+    return super(getProduceNas, self).dispatch(request, *args, **kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 92, in post
+    return JsonResponse(response)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/http/response.py", line 505, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/serializers/json.py", line 115, in default
+    return super(DjangoJSONEncoder, self).default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: IndexError('list index out of range',) is not JSON serializable
+ERROR 2019-09-12 10:49:23,070 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducenas/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 81, in dispatch
+    return super(getProduceNas, self).dispatch(request, *args, **kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 92, in post
+    return JsonResponse(response)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/http/response.py", line 505, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/lib/python2.7/json/encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/serializers/json.py", line 115, in default
+    return super(DjangoJSONEncoder, self).default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: IndexError('list index out of range',) is not JSON serializable

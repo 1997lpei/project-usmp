@@ -1,0 +1,162 @@
+WARNING 2019-09-11 10:59:06,197 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base get_response 182: Not Found: /media/2019-09-11/produce_SAN/20190911105905.xlsx
+WARNING 2019-09-11 10:59:06,255 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base get_response 182: Not Found: /favicon.ico
+ERROR 2019-09-11 11:09:54,394 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:09:55,955 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:09:56,154 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:09:56,307 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:09:56,472 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:09:59,351 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:09:59,503 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:09:59,631 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:09:59,779 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:09:59,912 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:00,062 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:00,231 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:00,379 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:00,546 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:00,721 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:01,056 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:01,213 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:03,739 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:03,946 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:04,129 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:04,296 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:04,463 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:04,623 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:04,837 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:11,889 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:12,336 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:12,548 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:12,714 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:12,891 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:44,915 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:10:53,300 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-11 11:12:33,699 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesanexcel/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getProducesanExcel didn't return an HttpResponse object. It returned None instead.

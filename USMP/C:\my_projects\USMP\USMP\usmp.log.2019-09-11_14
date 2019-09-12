@@ -1,0 +1,5 @@
+WARNING 2019-09-11 14:04:58,255 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base get_response 182: Not Found: /getproducesanexcel/
+WARNING 2019-09-11 14:04:59,144 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base get_response 182: Not Found: /getproducesanexcel/
+WARNING 2019-09-11 14:04:59,492 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base get_response 182: Not Found: /getproducesanexcel/
+WARNING 2019-09-11 14:04:59,672 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base get_response 182: Not Found: /getproducesanexcel/
+WARNING 2019-09-11 14:06:05,064 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base get_response 182: Not Found: /dataToExcel/

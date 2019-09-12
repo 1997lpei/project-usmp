@@ -1,0 +1,27 @@
+WARNING 2019-09-04 11:21:46,079 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/middleware/csrf.py csrf.py csrf _reject 103: Forbidden (CSRF cookie not set.): /produce/
+ERROR 2019-09-04 11:25:38,642 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/PycharmProjects/USMP/app01/views.py", line 36, in getproducesan
+    return JsonResponse(response)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/http/response.py", line 500, in __init__
+    raise TypeError('In order to allow non-dict objects to be '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False
+ERROR 2019-09-04 11:31:01,555 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducenas/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/PycharmProjects/USMP/app01/views.py", line 51, in getproducenas
+    return JsonResponse(response)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/http/response.py", line 500, in __init__
+    raise TypeError('In order to allow non-dict objects to be '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False

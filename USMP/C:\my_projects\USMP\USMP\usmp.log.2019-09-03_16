@@ -1,0 +1,178 @@
+ERROR 2019-09-03 13:35:06,967 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:35:06,986 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:35:06,997 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:35:07,011 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:35:51,918 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:35:51,927 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:35:51,937 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:35:51,947 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:16,532 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:16,542 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:16,553 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:16,561 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:17,271 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:17,280 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:17,289 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:17,301 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:18,033 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:18,046 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:18,055 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:18,065 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:18,888 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:18,898 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:18,906 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:18,917 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:19,621 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:19,631 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:19,642 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:19,652 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:20,694 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:20,714 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:20,723 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 13:36:20,733 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:15:39,671 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:15:39,682 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:15:39,694 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:15:39,702 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:16:45,045 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:16:45,056 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:16:45,068 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:16:45,076 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:16:50,097 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:16:50,107 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:16:50,115 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:16:50,124 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:18:42,877 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:18:42,889 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:20:26,157 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:20:26,170 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:23:36,924 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:23:36,935 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:23:39,063 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:23:39,074 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:24:09,242 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:24:09,253 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:24:22,968 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:24:22,979 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:24:22,991 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:24:22,999 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:24:26,797 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:24:26,807 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:25:17,441 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFailoverStatus 144: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:25:17,451 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:25:17,460 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasHealthStatus 210: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:25:17,470 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:28:35,415 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:28:35,425 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:30:39,732 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:30:39,742 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:13,845 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:13,856 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:14,837 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:14,846 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:15,414 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:15,437 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:19,973 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:19,985 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:22,127 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:22,137 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:36,856 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasFsUsed 178: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:39:36,866 /home/liu/PycharmProjects/USMP/nas/views.py views.py views getNetappNasEvent 247: [Errno 2] No such file or directory: 'C:\\my_projects\\USMP\\USMP\\initdb\\nas_list.txt'
+ERROR 2019-09-03 14:57:19,427 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /producesan
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/middleware/common.py", line 62, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/middleware/common.py", line 100, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/producesan/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2019-09-03 14:58:03,804 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /producesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.producesan didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-03 14:59:11,793 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /producesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/PycharmProjects/USMP/app01/views.py", line 19, in producesan
+    return JsonResponse(data_list)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/http/response.py", line 500, in __init__
+    raise TypeError('In order to allow non-dict objects to be '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False
+ERROR 2019-09-03 15:50:22,915 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/PycharmProjects/USMP/app01/views.py", line 17, in getproducesan
+    response = get_dict_data(producesan_datas)
+  File "/home/liu/PycharmProjects/USMP/app01/forms.py", line 20, in get_dict_data
+    data_list.append(model_to_dict(model_datas))
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/forms/models.py", line 84, in model_to_dict
+    opts = instance._meta
+AttributeError: 'QuerySet' object has no attribute '_meta'
+ERROR 2019-09-03 15:50:22,917 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducenas/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getproducenas didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-03 15:50:27,402 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/PycharmProjects/USMP/app01/views.py", line 17, in getproducesan
+    response = get_dict_data(producesan_datas)
+  File "/home/liu/PycharmProjects/USMP/app01/forms.py", line 20, in get_dict_data
+    data_list.append(model_to_dict(model_datas))
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/forms/models.py", line 84, in model_to_dict
+    opts = instance._meta
+AttributeError: 'QuerySet' object has no attribute '_meta'
+ERROR 2019-09-03 15:50:27,410 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducenas/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view app01.views.getproducenas didn't return an HttpResponse object. It returned None instead.
+ERROR 2019-09-03 15:51:09,296 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/PycharmProjects/USMP/app01/views.py", line 17, in getproducesan
+    response = get_dict_data(producesan_datas)
+  File "/home/liu/PycharmProjects/USMP/app01/forms.py", line 20, in get_dict_data
+    data_list.append(model_to_dict(model_datas))
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/forms/models.py", line 84, in model_to_dict
+    opts = instance._meta
+AttributeError: 'QuerySet' object has no attribute '_meta'
+ERROR 2019-09-03 15:51:11,871 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/PycharmProjects/USMP/app01/views.py", line 17, in getproducesan
+    response = get_dict_data(producesan_datas)
+  File "/home/liu/PycharmProjects/USMP/app01/forms.py", line 20, in get_dict_data
+    data_list.append(model_to_dict(model_datas))
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/forms/models.py", line 84, in model_to_dict
+    opts = instance._meta
+AttributeError: 'QuerySet' object has no attribute '_meta'
+WARNING 2019-09-03 16:30:39,819 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base get_response 182: Not Found: /test/

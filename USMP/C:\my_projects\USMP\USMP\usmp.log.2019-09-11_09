@@ -1,0 +1,55 @@
+ERROR 2019-09-11 09:11:10,995 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 36, in getproducesan
+    print update+ "-----------------------------------------------------------"
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+ERROR 2019-09-11 09:11:16,453 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 36, in getproducesan
+    print update+ "-----------------------------------------------------------"
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+ERROR 2019-09-11 09:12:08,895 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/liu/git_project/project-usmp/USMP/app01/views.py", line 35, in getproducesan
+    print edit_id + "-----------------------------------------------------------"
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+ERROR 2019-09-11 09:20:42,726 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: __init__() takes exactly 1 argument (2 given)
+ERROR 2019-09-11 09:22:34,788 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py base.py base handle_uncaught_exception 284: Internal Server Error: /getproducesan/
+Traceback (most recent call last):
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: __init__() takes exactly 1 argument (2 given)
+WARNING 2019-09-11 09:26:39,218 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/middleware/csrf.py csrf.py csrf _reject 103: Forbidden (CSRF cookie not set.): /getproducesan/
+WARNING 2019-09-11 09:46:49,046 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/middleware/csrf.py csrf.py csrf _reject 103: Forbidden (CSRF cookie not set.): /getproducesan/
+WARNING 2019-09-11 09:49:07,965 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/middleware/csrf.py csrf.py csrf _reject 103: Forbidden (CSRF cookie not set.): /getproducesan/
+WARNING 2019-09-11 09:49:28,855 /home/liu/.virtualenvs/py2.7/local/lib/python2.7/site-packages/django/middleware/csrf.py csrf.py csrf _reject 103: Forbidden (CSRF cookie not set.): /getproducesan/

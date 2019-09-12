@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="stylesheet" type="text/css" href="../static/ui/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="../static/ui//h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="../static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="../static/ui/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="../static/ui/h-ui.admin/css/style.css" />
+<title>首页</title>
+</head>
+<body>
+<nav class="breadcrumb">
+    <i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> HDS存储管理 <span class="c-gray en">&gt;</span> {{storage_name}} <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" id="gettopology" title="gettopology" ><i class="Hui-iconfont" >查看拓扑</i></a></nav>
+<div class="page-container">
+    <div class="mt-20">
+        <div style="width:50%; height:350px; float:left; display:inline" id="percentOfused_pie"></div>
+        <div style="width:50%; height:350px; float:left; display:inline" id="infoOfused_bar"></div>
+	</div>
+    <div class="mt-20" style="width:100%; height:360px; float:left; display:inline" id="infoOfLdev_column"></div>
+    <div class="mt-20">
+		<table id="ldevInfoDataTable" class="table table-border table-bordered table-bg table-hover table-sort table-responsive">
+			<thead>
+				<tr class="text-c">
+                    <th>存储序列号</th>
+                    <th>LDEV号</th>
+                    <th>大小</th>
+                    <th>PORT</th>
+                    <th>RAID_GROUP</th>
+                    <th>主机</th>
+                    <th>主机LUN号</th>
+				</tr>
+			</thead>
+			<tbody>
+            </tbody>
+		</table>
+	</div>
+</div>
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="../static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="../static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="../static/ui/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="../static/ui/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="../static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="../static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../static/lib/laypage/1.2/laypage.js"></script>
+<script src="../static/lib/highcharts/highcharts.js" type="text/javascript"></script>
+<script src="../static/lib/highcharts/modules/exporting.js" type="text/javascript"></script>
+<script src="../static/lib/highcharts/modules/variable-pie.js" type="text/javascript"></script>
+<script src="../static/lib/highcharts/themes/gray.js" type="text/javascript"></script>
+<!--自己写的JS脚本-->
+<script type="text/javascript" src="../static/ui/js/storage.js" ></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        var chart_storage = Highcharts.chart('percentOfused_pie', {
+            // Highcharts 配置
+                chart: {
+                    type: 'pie'
+                },
+                title: {
+                    text: '存储空间使用情况'
+                },
+                subtitle: {
+                    text: ''
+                },
+                tooltip: {
+                    headerFormat: '',
+                    pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {point.name}</b><br/>' +
+                    '<b>{point.y} GB</b><br/>'
+                },
+                credits:{
+                    enabled:false
+                },
+                exporting:{
+                    enabled:false
+                },
+                colors: ['#759AA0','#DD6B66','#2F4554'],
+                plotOptions: {
+                    pie:{
+                        showInLegend: true,
+                        dataLabels:{
+                            enabled:true,
+                            style:{
+                                textOutline:'none'
+                            },
+                            formatter: function() {
+                              return '<span style="color: ' + this.point.color + '"> ' + this.y +' GB</span>';
+                           }
+                        }
+                    }
+                },
+                series:[{
+                    data:[]
+                }]
+    });
+        var chart_ldev = Highcharts.chart('infoOfused_bar', {
+            // Highcharts 配置
+                chart: {
+                    type: 'bar'
+                },
+                title: {
+                    text: 'LDEV使用情况'
+                },
+                xAxis: {
+                    categories: []
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: 'LDEV使用情况'
+                    }
+                },
+                legend: {
+                    reversed: false
+                },
+                credits:{
+                    enabled:false
+                },
+                exporting:{
+                    enabled:false
+                },
+                colors: ['#DD6B66','#759AA0','#2F4554'],
+                plotOptions: {
+                    series: {
+                        stacking: 'normal'
+                    },
+                    bar:{
+                        dataLabels:{
+                            style:{
+                                textOutline:'none'
+                            },
+                            enabled:true
+                        }
+                    }
+                },
+                series: []
+    });
+        var chart_hostgroup = Highcharts.chart('infoOfLdev_column', {
+            // Highcharts 配置
+                 chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: '主机上LDEV使用情况'
+                },
+                xAxis: {
+                    categories: [],
+                    crosshair: true
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: '使用个数'
+                    }
+                },
+
+                tooltip: {
+                    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                    pointFormat: '<tr><td style="font-size:10px;color:#FFFFFF;padding:0">{series.name}: </td>' +
+                    '<td style="font-size:10px;color:#FFFFFF;padding:0"><b>{point.y:.1f}个</b></td></tr>',
+                    footerFormat: '</table>',
+                    shared: true,
+                    useHTML: true
+                },
+                plotOptions: {
+                    column: {
+                        borderWidth: 0,
+                        dataLabels:{
+                            style:{
+                                color:'#FFFFFF',
+                                textOutline:'none'
+                            },
+                            enabled:true
+                        }
+                    }
+                },
+                credits:{
+                    enabled:false
+                },
+                exporting:{
+                    enabled:false
+                },
+                colors: ['#759AA0','#DD6B66','#2F4554'],
+                series: []
+    });
+        initStorageLdevDataTable(); //storage.js
+        updatePercentOfused_pie(chart_storage); //storage.js
+        updateInfoOfused_bar(chart_ldev); //storage.js
+        updateInfoOfLdev_column(chart_hostgroup); //storage.js
+    });
+</script>
+</body>
+</html>

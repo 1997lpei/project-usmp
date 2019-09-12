@@ -1,0 +1,107 @@
+<!--_meta 作为公共模版分离出去-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="Bookmark" href="../static/image/favicon.ico" >
+<link rel="Shortcut Icon" href="../static/image/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="../static/ui/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="../static/ui/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="../static/ui/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="../static/ui/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="../static/ui/h-ui.admin/css/style.css" />
+
+<!--/meta 作为公共模版分离出去-->
+</head>
+<body>
+<article class="page-container">
+	<form action="" method="get" class="form form-horizontal" id="form-storage-add" >
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>存储类别：</label>
+			<div class="formControls col-xs-8 col-sm-9"> <span class="select-box">
+				<select class="select" size="1" name="storage_type" id="storage_type">
+					<option value="" selected>请选择</option>
+                    <option name="1" value="1">NetAPP NAS设备</option>
+                    <option name="2" value="2">HDS G系列存储</option>
+				</select>
+				</span> </div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>存储名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="storage_name" name="storage_name">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>序列号：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="storage_serial" name="storage_serial">
+			</div>
+		</div>
+        <div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>管理IP：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="storage_ip" name="storage_ip">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">用途：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="storage_option" id="storage_option" cols="" rows="" class="textarea"  placeholder="说点什么..." ></textarea>
+			</div>
+		</div>
+        <div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">机房位置：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="storage_postion" id="storage_postion" cols="" rows="" class="textarea"  placeholder="说点什么..." ></textarea>
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;添加&nbsp;&nbsp;">
+                <p style="display: inline;" >{{result}}</p>
+			</div>
+		</div>
+	</form>
+</article>
+
+<script type="text/javascript" src="../static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="../static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="../static/ui/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="../static/ui/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="../static/lib/validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="../static/lib/validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="../static/lib/validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("#form-storage-add").validate({
+        rules:{
+            storage_name:{
+				required:true,
+				minlength:5,
+				maxlength:16
+			},
+			storage_serial:{
+				required:true,
+			},
+            storage_type:{
+                required:true,
+            },
+            storage_ip:{
+                required:true,
+            }
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid"
+	});
+});
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>
